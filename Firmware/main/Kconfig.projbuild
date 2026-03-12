@@ -1,0 +1,14 @@
+menu "Configuracoes do WiFi"
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "MinhaRede"
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default "MinhaSenha"
+endmenu
+
+menu "Configuracoes do IP"
+    config MY_IP
+        string "MY IP"
+        default "Meu ip"
+endmenu
